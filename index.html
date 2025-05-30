@@ -28,9 +28,36 @@
     }
 
     header {
-      position: relative;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      background-color: #003366;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .logo {
+      max-height: 120px;
+      height: auto;
+      width: auto;
+    }
+
+    .header-text h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .header-text p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0 0;
     }
 
     header img.logo {
@@ -84,9 +111,13 @@
 
 <body>
   <header>
-    <img src="BetaPlusLogo_v2.png" alt="BetaPlus Tutoring Logo" class="logo"/>
-    <h1 style="font-size: 3.5rem;">BetaPlus Tutoring</h1>
-    <p style="font-size: 1.0rem;">Expert Academic Support for High School and University Students</p>
+    <div class="header-container">
+      <img src="BetaPlusLogo_v2.png" alt="BetaPlus Tutoring Logo" class="logo"/>
+      <div class="header-text">
+        <h1>BetaPlus Tutoring</h1>
+        <p>Expert Academic Support for High School and University Students</p>
+      </div>
+    </div>
   </header>
 
   <nav>
