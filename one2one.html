@@ -7,19 +7,28 @@
   <title>One-to-One Tutorials | BetaPlus Tutoring</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
-    body{
+    body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
-      background: #f5faff;
+      padding: 0;
+      line-height: 1.6;
+      background: #e6f2ff;
       color: #333;
       font-size: 16px;
+      text-align: justify;
     }
 
     header, nav, footer {
       background-color: #003366;
       color: #fff;
-      text-align: center;
       padding: 1rem;
+      text-align: center;
+    }
+
+    header {
+      position: relative;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     header img.logo {
@@ -32,31 +41,40 @@
     }
 
     nav a {
-      color: white;
+      color: #fff;
       margin: 0 15px;
       text-decoration: none;
+      font-weight: 500;
+      transform-origin: center;
+      padding: 4px 8px;
+      transition: transform 0.2s ease;
+      font-size: 16px;
+      line-height: 1.2;
     }
 
     nav a:hover {
       text-decoration: underline;
+      transform: scale(1.4);
     }
 
     .section {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
     }
+
     .card {
       background: white;
-      padding: 1.5rem;
+      padding: 2rem;
+      margin: 1.5rem 0;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .card img {
-      max-width: 100%;
-      border-radius: 10px;
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
     }
-    footer p { margin: 0; font-size: 0.9rem; }
   </style>
 </head>
 
